@@ -1,0 +1,23 @@
+{
+  "name": "lending-node",
+  "version": "0.1.0",
+  "description": "Lending club api reader",
+  "author": "Flavio Crisciani <f.crisciani@gmail.com>",
+  "contributors": [{
+    "name": "Flavio Crisciani",
+    "email": "f.crisciani@gmail.com"
+  }],
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "debug": "*",
+    "node-lending-club-api": "*",
+    "elasticsearch": "*",
+    "node-schedule": "*"
+  },
+  "private": true,
+  "analyze": true,
+  "license": "MIT"
+}
